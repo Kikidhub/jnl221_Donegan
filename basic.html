@@ -1,0 +1,148 @@
+<!-- Complete this worksheet in HTML and CSS. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on HTML tags and CSS. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+           
+            p {
+                color: #505050;
+                font-size: 16px;
+                font-family: 'Open Sans', serif;
+                width: 50%;
+            }
+            /*This is where my ID 'quote' is styled, with a hashtag.*/
+            #quote {
+                color: gray;
+                font-style: italic;
+                border: solid lightskyblue 2px;
+            }
+
+
+    /*This is where my class 'book is styled, with a period.*/
+            .book {
+                color: gray;
+                border: solid lightskyblue 2px;
+            }
+            #bargraph {
+                border: 1px solid gray;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                width: 50%;
+            }
+            .bar_label {
+                color: red;
+            }
+            #longest {
+                width: 300px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #longer {
+                width: 200px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;   
+            }
+            #long {
+                width: 100px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;   
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        
+
+        <h1> A little bit about me!</h1>
+
+       
+        <h2>My intro</h2>
+        <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+        <!-- Tags to use: <p>, <strong>, <i> -->
+            <p> I am an <strong> MND </strong> and <strong> Geography </strong> double major. I am from Morristown, New Jersey. I like to write, read and listen to music for fun. My <i> family </i> is my dog, brother, mom, dad, grandma, aunts, uncles, and cousins.
+
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts -->
+        <!-- Tags to use: <p>, <a> -->
+            <p>This is my <a href="https://www.instagram.com/kirapd_/profilecard/?igsh=MWdnejZmY3gyYm44eA==" target="_blank">Instagram</a>. This is the handle for my <a href="https://www.linkedin.com/in/kiradonegan/" target="_blank">LinkedIn</a> </p>
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
+        <p>My text is gray.</p>
+
+
+        <h2>My favorite meme</h2>
+        <!-- Include: "large_wink.png" as an image -->
+        <!-- Tags to use: <img> -->
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+        <img src="large_wink.png" alt="a winking image" height="300px" width="400px">
+
+    
+        <h2>Why I'm a great student</h2>
+        <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
+        <!-- Tags to use: <ul>, <li>, <strong> -->
+            <ul>
+                <li>I work <strong>hard</strong></li>
+                <li>I make the <strong>effort</strong> to understand the content</li>
+                <li>I <strong>listen</strong> in class</li>
+                <li>I ask for <strong>help</strong></li>
+            </ul>
+    
+        <h2>Top 3 most famous people from my hometown</h2>
+        <!-- Include: an ordered list -->
+        <!-- Tags to use: <ol>, <li>, <a> -->
+            <ol>
+                <li>The most <a href="https://playback.fm/born-in-city/morristown-nj" target="_blank">famous person</a> is <a href="https://njhalloffame.org/2017-inductees/steve-forbes/" target="_blank">Steve Forbes.</a></li>
+                <li>The second famous person from my hometown is actor <a href="https://www.imdb.com/search/name/?birth_place=morristown,%20new%20jersey,%20usa" target="_blank">Kira Kosarin</a>.</li>
+                <li>A third famous person is actor <a href="https://www.imdb.com/search/name/?birth_place=morristown,%20new%20jersey,%20usa" target="_blank">Peter Dinklage</a>.</li>
+            </ol>
+
+        <h2> ~ Challenge: Read my poetry ~</h2>
+        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+        <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
+            <p> College is hard work <br> I drink way too much caffeine <br> Let me take a nap</p>
+
+        <h2>This is one of my favorite quotes</h2>
+        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+        <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+            <h3>Percy Jackson: The Lightning Thief</h3>
+                <p id="quote">Look, I didn't want to be a half-blood.</p>
+          
+        <h2>These are more of my favorite books</h2>
+        <!-- Include: an unordered list of at least three books, list items should have a border -->
+        <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+            <ul>
+                <li class="book">The Land of Stories: The Wishing Spell</li>
+                <li class="book">Heroes of Olympus: The Mark of Athena</li>
+                <li class="book">Heroes of Olympus: The Blood of Olympus</li>
+            </ul>
+
+        <h2>Here's how I normally spend my weekend</h2>
+        <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) -->
+        <!-- Tags to use: <iframe> -->
+            <iframe title="Weekend activities" aria-label="Column Chart" id="datawrapper-chart-2kLMq" src="https://datawrapper.dwcdn.net/2kLMq/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="436" data-external="1"></iframe>
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+        <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. (Use the CSS in #longest as a reference.) You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+            
+        <div id="bargraph">
+            <h4>Parties thrown at Syracuse throughout the school year</h4>
+            <p class="bar_label">Beginning</p>
+            <div id="longest"></div>
+            <p class="bar_label">Middle</p>
+            <div id="longer"></div>
+            <p class="bar_label">End</p>
+            <div id="long"></div>
+        </div>
+     
+    </body>
+</html>
